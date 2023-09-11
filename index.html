@@ -1,17 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Carrito de Servicios</title>
 </head>
 <body>
-    
-<h1>Bienvenido a la pagina de Andrea Ruso</h1>
+<h1>Servicios Astrológicos</h1>
 
+<h2 id="descuento"> Si su paga es mayor a $150 se le aplicara un 10% de descuento</h2>
 
+<label for="tipoServicio">Seleccione un servicio:</label>
+<select id="tipoServicio">
+<option value="Tarot">Tarot</option>
+<option value="Reiki">Reiki</option>
+<option value="Revolución Solar">Revolución Solar</option>
+<option value="Carta Astral">Carta Astral</option>
+<option value="Terapia Holística">Terapia Holística</option>
+</select>
 
+<button id="agregarCarrito">Agregar al carrito</button>
 
-    <script src="main.js"></script>
+<button id="borrarCarrito">Borrar carrito</button>
+
+<button id="verCarrito">Ver carrito</button>
+
+<div id="listaPrecios"></div>
+
+<div id="carrito"></div>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="main.js"></script>
 </body>
-</html> 
+</html>
+
